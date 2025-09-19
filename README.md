@@ -1,27 +1,37 @@
-*Heart Sound Classification with Deep Learning
-This project implements a deep learning model for the classification of heart sounds. The model is trained to distinguish between different types of heart conditions, such as Aortic Stenosis and Mitral Stenosis, as well as a normal heart sound.
+# Heart Sound Classification with Deep Learning
 
-Project Files
-BD24_2_Speech_Recog_Qualification.ipynb: This Jupyter notebook contains the complete code for the project, including:
+This project implements a deep learning model for the **classification of heart sounds**.  
+The model is trained to distinguish between different heart conditions such as **Aortic Stenosis**, **Mitral Stenosis**, and **Normal** heart sounds.
 
-Data Preparation: Code to download and extract the dataset from a GitHub repository.
+---
 
-Model Architecture: A deep learning model built with TensorFlow and Keras, specifically designed for audio classification tasks.
+## Project Files
+- **BD24_2_Speech_Recog_Qualification.ipynb**  
+  Contains the complete code for the project, including:
+  - **Data Preparation**: Downloading and extracting the dataset.  
+  - **Model Architecture**: Deep learning model using TensorFlow & Keras for audio classification.  
+  - **Training & Evaluation**: Training the model and measuring performance.  
+  - **Results**: Accuracy, correct predictions, and errors.
 
-Training and Evaluation: The process of training the model on the heart sound data and evaluating its performance.
+---
 
-Results: A summary of the model's accuracy, showing the number of correct and incorrect predictions.
+## Technologies Used
+- **Python** – Main programming language  
+- **TensorFlow & Keras** – Model building & training  
+- **NumPy** – Numerical operations & data manipulation  
+- **Matplotlib** – Data visualization  
+- **SciPy** – Audio file processing (`.wav` files)  
 
-Technologies Used
-Python: The primary programming language.
+---
 
-TensorFlow & Keras: Used for building and training the deep learning model.
+## Results
+The model achieved an accuracy of **81.25%**, correctly classifying **104 out of 128 samples**.  
+The notebook provides a detailed breakdown of predictions for each data point.
 
-NumPy: Essential for numerical operations and data manipulation.
+---
 
-Matplotlib: Used for data visualization, if any is included in the notebook.
-
-SciPy: Used for reading audio (.wav) files.
-
-Summary of Results
-The model achieved an accuracy of 81.25%, correctly classifying 104 out of 128 data samples. The output of the notebook provides a detailed breakdown of the predictions for each data point, indicating which labels were predicted correctly and which were incorrect.
+## How to Run
+1. Install Python and the required libraries (`TensorFlow`, `NumPy`, `Matplotlib`, `SciPy`).  
+2. Open the notebook:  
+   ```bash
+   jupyter notebook BD24_2_Speech_Recog_Qualification.ipynb
